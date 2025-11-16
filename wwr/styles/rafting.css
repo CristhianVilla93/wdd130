@@ -13,6 +13,11 @@
   --body-font: Arial, Helvetica, sans-serif;
 }
 
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
