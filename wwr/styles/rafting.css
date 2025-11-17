@@ -9,7 +9,7 @@
   --primary-color: #ffff; /* forest green */
   --secondary-color: #006400; /* warm sand */
   --accent1-color: #264653; /* dark slate blue */
-  --accent2-color: #e9c46a; /* light golden yellow */
+  --accent2-color: #0000ff; /* light golden yellow */
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
 }
@@ -69,7 +69,8 @@ h1 {
     margin: 20px 10px;
     width: 98%;
     top:  80px;
-    background-color: var(--accent2-color); 
+    background-color: #e9c46a;
+
 }
 
 .hero article img {
