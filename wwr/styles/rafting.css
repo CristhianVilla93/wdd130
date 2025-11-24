@@ -17,6 +17,34 @@
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    padding: 10px;
+}
+
+header img {
+    width: 150px; 
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul li {
+   flex: auto;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: var(--accent1-color); 
 }
 
 body {
@@ -64,6 +92,10 @@ h1 {
     color: #fff;
 }
 
+h2 {
+    text-align: center;
+}
+
 .hero article {
     position: absolute;
     margin: 20px 10px;
@@ -76,4 +108,65 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+.history-content {
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    gap: 20px;
+    align-items: center;
+}
+.history-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.history-content p {
+    margin: 0;
+    padding: 0;
+}
+
+.adventure-grid {
+    display: flex;
+    justify-content: space-around; 
+    align-items: flex-start;
+    flex-wrap: wrap; 
+    gap: 15px;
+}
+
+.adventure-grid figure {
+    width: 100px; 
+    text-align: center;
+    margin: 10px 0;
+}
+
+.adventure-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.adventure-grid figcaption {
+    font-size: 0.85em;
+    padding: 5px 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 20px 0;
+}
+
+
+.socialmedia {
+    display: flex;
+    gap: 10px; 
+    margin: 0; 
+    padding: 0;
+}
+
+.socialmedia img {
+    width: 30px;
+    height: 30px;
 }
