@@ -62,8 +62,13 @@ h1, h2 {
     color: var(--secondary-color);
 }
 
-nav, p, section, article {
+nav, section, article {
     margin: 16px;
+    padding: 8px;
+}
+
+.p-about {
+     margin: 16px;
     padding: 8px;
 }
 
@@ -81,7 +86,7 @@ nav, p, section, article {
     height: auto;
 }
 
-h1 {
+.hero-h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -169,4 +174,154 @@ footer {
 .socialmedia img {
     width: 30px;
     height: 30px;
+}
+
+/*CONTACT.HTML*/
+
+.contact-h1 {
+    text-align: center;
+}
+
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+    padding: 20px;
+}
+
+
+.company-info-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.company-info-header h1 {
+    font-size: 2em;
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    margin-bottom: 10px;
+}
+
+.contact-details {
+    margin-top: 10px;
+}
+
+.p-contact {
+    margin: 5px 0;
+}
+
+
+.contact-content-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 50px; 
+    align-items: flex-start;
+}
+
+
+
+.map-container {
+ 
+    padding: 0;
+    border: 1px solid #ccc; 
+}
+
+
+.map-iframe {
+    width: 100%; 
+    height: 350px; 
+    display: block;
+    border: 0;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.form-group label {
+    flex: 0 0 100px; 
+    text-align: right;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    flex: 1; 
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+
+.form-purpose {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.form-purpose label {
+    flex: 0 0 100px; 
+    text-align: right;
+    font-weight: bold;
+    padding-top: 5px; 
+}
+
+.radio-options {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+}
+
+.radio-options label {
+    display: flex;
+    flex: initial; 
+    font-weight: normal; 
+    text-align: left;
+}
+
+
+.form-group textarea {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    min-height: 100px;
+}
+
+
+.subscribe-checkbox {
+    margin-left: 110px; 
+}
+
+.subscribe-checkbox input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+
+.submit-button {
+    background-color: #f0f0f0;
+    color: var(--accent1-color);
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-left: 110px; 
+    width: 70%; 
+    align-self: flex-start;
+}
+
+.submit-button:hover {
+    background-color: #e0e0e0;
 }
