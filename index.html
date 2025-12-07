@@ -4,51 +4,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 130 | Cristhian Rafael Villa Miranda</title>
+    <title>Home Whitewater Rafting</title>
     <meta name="description"
-        content="Describe your home page here using keywords like your name, the course, the purpose of the page.">
+        content="Discover Whitewater Rafting, your premier adventure company offering exciting and safe rafting trips for all skill levels. Start your adventure here.">
     <meta name="author" content="cristhian Rafael Villa Miranda">
-    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="wwr/styles/rafting.css">
 
 </head>
 
 <body>
     <header>
+        <img src="wwr/images/z-wwr-blue.jpg" alt="brand logo whitewater">
         <nav>
-            <a href="#">Home</a>
-            <a href="wwr/">Rafting Website</a>
-            <a href="http://Linkedin.com">Linkedin</a>
-            <a href="http://facebook.com">Facebook</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="wwr/about.html">About Us</a></li>
+                <li><a href="wwr/trips.html">Trips</a></li>
+                <li><a href="wwr/contact.html">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <h1>Cristhian Rafael Villa Miranda | WDD 130</h1>
-        <img src="images/profile.jpg" alt="Hello, my name is Cristhian Villa" width="200">
-        <p>Hello! My name is Cristhian Villa and I am from Guayaquil, Ecuador. <br>I am very happy to be in the United
-            States and to study a new degree in a new language. <br>My wish is to work and be a valuable asset to a
-            foreign company. <br> I want to help others achieve their goals through
-            effort, dedication, and sacrifice. Life is beautiful, but one must have the courage to always strive.</p>
-        <ul class="box indent">
-            <li><a href="https://www.churchofjesuschrist.org/temples/details/guayaquil-ecuador-temple?lang=eng"
-                    target="_blank">Guayaquil
-                    Ecuador Temple</a></li>
-            <li><a href="https://www.churchofjesuschrist.org/temples/details/san-diego-california-temple?lang=eng"
-                    target="_blank">San Diego California Temple</a></li>
-            <li><a href="https://www.churchofjesuschrist.org/temples/details/mesa-arizona-temple?lang=eng"
-                    target="_blank">Mesa Arizona Temple</a></li>
-        </ul>
+        <h1 class="home-h1">Whitewater Rafting</h1>
+        <div class="home-img">
+            <img class="home-picture" src="/wwr/images/picture-home.jpg" alt="rafting in family">
+            <p class="home-p"> Your adventure begins here.</p>
+        </div>
+
+        <section class="call-to-action">
+            <h2>
+                Ready for the Splash?
+            </h2>
+            <p>
+                Check our itineraries and book your spot today. The rapids await you!
+            </p>
+            <a href="wwr/trips.html">Explore Our Trips</a>
+        </section>
+
+        <section class="key-features">
+            <h2>
+                Discover the Thrill of Rafting
+            </h2>
+
+            <div>
+                <div>
+                    <div>
+                        <h3>Wild Rivers</h3>
+                        <p>Explore the region's most stunning and challenging rivers.
+                            We offer routes
+                            from Class II (easy) to Class IV (extreme). Our expert guides guarantee an
+                            unforgettable and safe experience.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        <h3>Priority: Safety</h3>
+                        <p>All our equipment is state-of-the-art and certified. Our
+                            guides are
+                            trained in first aid and whitewater rescue. Your well-being is our
+                            utmost
+                            concern on every trip!</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        <h3>Equipment Included</h3>
+                        <p>You don't have to worry about a thing. We provide
+                            self-bailing rafts,
+                            paddles, helmets, and life jackets. Everything is sanitized and ready for your expedition.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="newsletter-container">
+            <h2>
+                Subscribe to Our Newsletter!
+            </h2>
+            <p>
+                Receive exclusive offers, rafting tips, and news directly in your inbox.
+            </p>
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Full Name">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="email@example.com">
+                </div>
+                <button type="submit">
+                    Subscribe
+                </button>
+            </form>
+        </div>
     </main>
-    <aside class="box">
-        <h2>Unite Estates</h2>
-        <img src="images/mesa.jpg" alt="Mesa AZ">
-        <p>Mesa is a large Arizona suburb known for its rich desert landscapes and strong ties to agriculture and the
-            arts. <br>It
-            offers diverse outdoor recreation, including proximity to the Superstition Mountains, and hosts spring
-            training
-            baseball.</p>
-    </aside>
+
     <footer>
-        <p>©️2025 🍽️ Cristhian Villa 🍽️ Guayaquil, Ecuador</p>
+        <p class="p-about">©️ 2025 💧 Whitewater Rafting 💧Cristhian Villa</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook Icon"></a>
+            <a href="https://linkedin.com"><img src="images/linkedin.svg" alt="Linkedin Icon"></a>
+            <a href="https://instagram.com"><img src="images/instagram.svg" alt="Instagram Icon"></a>
+        </nav>
     </footer>
 </body>
 
